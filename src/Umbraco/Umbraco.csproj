@@ -43,6 +43,15 @@
     <RuntimeHostConfigurationOption Include="System.Globalization.AppLocalIcu" Value="$(UmbracoAppLocalIcuVersion)" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\media\sample.jpg" />
+    <Content Include="wwwroot\media\snvg1mjn\pic_13.jpeg" />
+  </ItemGroup>
+
 
   <PropertyGroup>
     <!-- Razor files are needed for the backoffice to work correctly -->
